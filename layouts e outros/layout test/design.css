@@ -1,0 +1,111 @@
+
+body {
+
+    background: rgb(190,221,243);
+    background: linear-gradient(0deg, rgb(199, 221, 243) 0%, rgba(112,144,176,1) 100%);
+    background-repeat: repeat;    
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: auto;
+    align-content: start
+  }
+  .container:after {
+    display: block;
+    margin: 10px;
+    flex: 999 999 auto;
+  }
+  .item {
+    flex: 0 0 auto;
+    margin: 10px;
+  }
+
+  img {
+
+ height: 100px;   
+ width: 100px;
+  }
+
+  .header {
+
+padding: 50px;
+text-align: center;
+background: rgb(89, 131, 173); 
+background: linear-gradient(0deg, rgb(89, 131, 173)0%, rgba(255,255,255,1) 100%);
+color: rgb(255, 255, 255);
+border-radius: 10px;
+display: block;
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+border-color: rgb(158, 158, 158);
+border: 5px;
+
+  }
+
+  .header h1 {
+
+  font-size: 35px;  
+  text-shadow: 2px 2px 2px grey;
+  }
+
+  .coluna {
+
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+    
+  }
+
+.coluna2 {
+
+ -ms-flex: 30%; 
+ flex: 30%;
+ background-color:  rgb(214, 221, 230);
+ padding: 20px;
+    
+}
+
+ h2{
+
+text-align: center;
+color: aliceblue;
+text-shadow: 2px 2px 0px grey;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+
+}
+
+ h3 {
+
+    text-align: center;
+    color: rgb(118, 135, 148);
+    font-family: Arial, Helvetica, sans-serif;   
+
+}
+
+.col p {
+
+width: 600px;
+background-color: rgb(214, 221, 230);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+float: left;
+padding: 5px;
+
+}
+
+.bap img {
+
+ padding: 5px;   
+height: 500px;
+width: 350px;
+margin-left: 190px;
+border-style:ridge;
+border-width: 10px;
+border-color: rgb(107, 160, 212);
+}

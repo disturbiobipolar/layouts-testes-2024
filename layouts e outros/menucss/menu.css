@@ -1,0 +1,83 @@
+body {
+
+background-image: url("https://media.giphy.com/media/vR0s8mjfN7Hri/giphy.gif");
+background-color: white;
+}
+
+#menu{
+    width: 100%;
+    display: block;
+    float: left;
+}
+#menu ul li{
+
+    list-style-type:none;
+    float: left;
+}
+
+#menu ul li a{
+
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+font-size: 30px;
+background-color: rgb(255, 56, 165);
+margin: padding;
+color: blanchedalmond;
+text-decoration: none;
+padding: 20px;
+
+
+}
+
+#menu ul li a:hover {
+
+background-color: rgb(187, 20, 173);
+
+
+}
+
+#menu {
+
+width: 100%;
+display: block;
+float: left;
+}
+
+
+
+.bloco {
+
+width: 50%; 
+height: auto;
+display: block;
+float: left;
+background-color: rgb(255, 56, 165);
+
+}
+
+.bloco img{
+  
+border-style:double;
+display: block;
+margin-left: auto ;
+margin-right: auto;
+width: 40%;
+height: auto;
+float:left;
+
+    
+}
+
+.bloco p {
+
+float: right;
+width: 40%;
+
+}
+
+.quebra {
+
+clear: both;
+margin-bottom: 40px;
+
+
+}
